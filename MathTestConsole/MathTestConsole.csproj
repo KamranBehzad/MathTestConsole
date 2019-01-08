@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AALatest\NsLib\NsLib.csproj">
+      <Project>{D0CB1F90-F60A-462C-A552-92177FE209BA}</Project>
+      <Name>NsLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
