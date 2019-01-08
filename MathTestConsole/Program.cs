@@ -35,8 +35,7 @@ namespace MathTestConsole
                 var sin = Math.Sin(degree * Math.PI / 180);
                 var sinx2 = Math.Sin(2 * degree * Math.PI / 180);
                 var sinx10 = Math.Sin(10 * degree * Math.PI / 180);
-                //var cos = Math.Cos(degree*Math.PI/180);
-                Console.WriteLine($"{degree}°: Sin={sin:f4}");
+                //Console.WriteLine($"{degree}°: Sin={sin:f4}");
                 // write data to CSV file
                 TextFileHelper.AppendLine($"{degree}," +
                                           $"{sin}," +
